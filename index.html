@@ -8,70 +8,73 @@
 </head>
 <body>
 
-<header>
-    <div class="header-content">
-        <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
-        <h1>Billy Reyes</h1>
-        <p>Data Encoder | IT Support | Entry-Level</p>
-        <a href="resume.pdf" download class="btn">📄 Download Resume</a>
+<button class="dark-toggle" onclick="toggleDarkMode()">🌙</button>
+
+<header class="hero">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1 id="typing-name"></h1>
+            <p>Data Encoder | IT Support | Entry-Level</p>
+            <a href="resume.pdf" download class="btn">📄 Download Resume</a>
+        </div>
+
+        <div class="hero-image">
+            <img src="profile.jpg" alt="Profile Photo">
+        </div>
     </div>
 </header>
+
 
 <main class="container">
 
     <section class="card">
-        <h2>About Me</h2>
-        <p>
-            Detail-oriented and dependable professional seeking an entry-level
-            role as a Data Encoder or IT Support. I am capable of handling
-            repetitive tasks, ensuring data accuracy, and providing basic
-            technical support with minimal supervision.
+        <h2>Professional Summary</h2>
+        <p class="lead-text">
+            Detail-oriented and highly dependable professional seeking an
+            entry-level position as a <strong>Data Encoder</strong> or
+            <strong>IT Support</strong>. I am experienced in handling
+            repetitive, process-driven tasks while maintaining a high level
+            of accuracy and data integrity.
         </p>
-    </section>
 
+        <p>
+            I am comfortable working with minimal supervision, following
+            established procedures, and meeting productivity targets.
+            I have a strong willingness to learn new systems, tools,
+            and automation processes to support business operations.
+        </p>
+
+    </section>
+    
     <section class="card">
-        <h2>Core Skills</h2>
+        <h2>Core Competencies</h2>
         <div class="skills">
-            <span>Data Encoding</span>
-            <span>Data Accuracy</span>
+            <span>High-Accuracy Data Encoding</span>
             <span>Basic IT Troubleshooting</span>
-            <span>MS Excel & Word</span>
-            <span>Fast Typing</span>
-            <span>Process-Oriented</span>
+            <span>Microsoft Excel & Word</span>
+            <span>Process-Driven Task Execution</span>
+            <span>Attention to Detail</span>
+            <span>Fast Learner & Adaptable</span>
         </div>
     </section>
 
     <section class="card">
-        <h2>Relevant Experience</h2>
-        <ul>
-            <li>Accurate encoding and validation of data</li>
-            <li>Handling repetitive office and system tasks</li>
-            <li>Assisting IT teams with basic troubleshooting</li>
+        <h2>Professional Value</h2>
+        <ul class="value-list">
+            <li>Consistently ensures accuracy and completeness of encoded data</li>
+            <li>Handles repetitive and high-volume tasks with focus and efficiency</li>
+            <li>Provides basic IT and system support when required</li>
+            <li>Communicates effectively with supervisors and team members</li>
         </ul>
     </section>
-
-    <section class="card">
-        <h2>Tools & Systems</h2>
-        <ul>
-            <li>Windows OS</li>
-            <li>Google Workspace</li>
-            <li>Microsoft Office</li>
-            <li>Basic HTML & CSS</li>
-        </ul>
-    </section>
-
-    <section class="card contact">
-        <h2>Contact</h2>
-        <p>Email: reyesbilly0210@gmail.com</p>
-        <p>Phone: 09753884366</p>
-        <p>Location: Philippines</p>
-    </section>
+    
 
 </main>
 
 <footer>
-    © 2025 Billy Reyes | Data Encoder & IT Support
+    © 2025 Billy Reyes | Portfolio
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
