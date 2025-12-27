@@ -1,7 +1,9 @@
 /* DARK MODE */
+
 function toggleDarkMode() {
     document.body.classList.toggle("dark");
 }
+
 
 /* TYPING ANIMATION */
 const text = "Billy Reyes";
@@ -15,4 +17,5 @@ function typeEffect() {
         setTimeout(typeEffect, speed);
     }
 }
+
 typeEffect();
